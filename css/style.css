@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    margin:0 auto;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+.menu{
+    position: absolute;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+}
+
+#logo{
+    text-transform: uppercase;
+    display: block;
+    margin: 20px 0;
+}
+
+#logo>a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav{
+    width:100%;
+    padding:0 0 15px 0;
+}
+
+
+nav>ul>li{
+    display: inline-block;
+    margin:0 15px;
+    letter-spacing: 1.5px;
+}
+    
+li>a{
+    color:#000;
+    text-decoration: none;
+}
+
+li>a:hover{
+    color:lightgrey;
+}
+
+#banner{ 
+    background-image: url('../img/jane.jpg');
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer{
+    text-align: center;
+    background-color: lightgrey;
+    padding:20px;
+    font-weight: 700;
+}
