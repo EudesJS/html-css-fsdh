@@ -56,6 +56,30 @@ li>a:hover{
   margin:0 auto;
 }
 
+#main-content>h1{
+  margin-bottom: 10px;
+}
+
+#main-content>h2{
+  padding:10px 0;
+}
+
+#main-content>h2>span{
+  text-transform: uppercase;
+}
+
+#main-content>p{
+  margin-bottom: 10px;
+}
+
+#main-content>p>a{
+  color:blue;
+}
+
+.contact-form form, .map{
+  width:49%;
+  display: inline-block;
+}
 
 /*footer style*/
 footer{
