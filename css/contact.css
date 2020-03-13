@@ -1,0 +1,67 @@
+/*css reset*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*body style*/
+html,body{
+  width:100%;
+  margin:0 auto;
+  font-family: 'Raleway', 'sans-serif';
+}
+
+/*header style*/
+.menu{
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+#logo{
+  text-transform: uppercase;
+  display: block;
+  margin: 20px 0;
+}
+
+#logo>a{
+  text-decoration: none;
+  color: #000;
+}
+
+nav{
+  width:100%;
+  padding:0 0 15px 0;
+}
+
+nav>ul>li{
+  display: inline-block;
+  margin:0 15px;
+  letter-spacing: 1.5px;
+}
+  
+li>a{
+  color:#000;
+  text-decoration: none;
+}
+
+li>a:hover{
+  color:lightgrey;
+}
+
+#main-content{
+  width:60%;
+  margin:0 auto;
+}
+
+
+/*footer style*/
+footer{
+  text-align: center;
+  background-color: lightgrey;
+  height:50px;
+  line-height: 50px;
+  margin-top:50px;
+}
